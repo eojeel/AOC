@@ -5,7 +5,12 @@ edition = "2021"
 
 
 [dependencies]
+regex = "1.10.2"
 
 [[bin]]
 name = "day_01"
 path = "src/day_01.rs"
+
+[[bin]]
+name = "day_02"
+path = "src/day_02.rs"
