@@ -3,10 +3,7 @@ name = "aoc_2023"
 version = "0.1.0"
 edition = "2021"
 
-
 [dependencies]
-regex = "1.10.2"
-
 [[bin]]
 name = "day_01"
 path = "src/day_01.rs"
@@ -14,3 +11,7 @@ path = "src/day_01.rs"
 [[bin]]
 name = "day_02"
 path = "src/day_02.rs"
+
+[[bin]]
+name = "day_03"
+path = "src/day_03.rs"
